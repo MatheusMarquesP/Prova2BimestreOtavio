@@ -23,7 +23,7 @@ class AuthController {
         if (!hashPassword) {
             res.json({
             status: "error",
-            message: "Erro ao criptografar a senha ...",
+            message: "Erro ao criptografar senha",
             });
             return;
         }
