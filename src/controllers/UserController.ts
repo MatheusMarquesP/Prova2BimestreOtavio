@@ -39,7 +39,7 @@ class UserController {
       if (!hashPassword) {
         res.json({
           status: "error",
-          message: "Erro ao criptografar a senha ...",
+          message: "Erro ao criptografar a senha ",
         });
         return;
       }
@@ -88,7 +88,7 @@ class UserController {
       if (!hashPassword) {
         res.json({
           status: "error",
-          message: "Erro ao criptografar a senha ...",
+          message: "Erro ao criptografar senha ",
         });
         return;
       }
@@ -131,7 +131,7 @@ class UserController {
         if (response) {
           res.json({
             status: "ok",
-            message: "usuário deletado com sucesso",
+            message: "usuário deletado",
           });
           return;
         }
